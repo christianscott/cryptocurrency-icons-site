@@ -17,10 +17,10 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <React.Fragment>
         <SearchBox handleSearch={this.handleSearch} />
         <SearchableIcons query={this.state.query} icons={icons} />
-      </div>
+      </React.Fragment>
     );
   }
 }
