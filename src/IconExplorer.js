@@ -1,7 +1,7 @@
 import React from "react";
 import SearchBox from "./SearchBox";
 import SearchableIcons from "./SearchableIcons";
-import icons from "./icons.json";
+import icons from "./iconSvgs.json";
 
 export default class App extends React.Component {
   constructor(props) {

@@ -1,5 +1,5 @@
 import React from "react";
-import Icon from "./Icon";
+import Icons from "./Icons";
 
 export default ({ icons, query }) => {
   const { matched, notMatched } = partitionIcons(icons, query);
@@ -35,10 +35,6 @@ function NoMatches({ icons, query }) {
 
 function NoQuery({ icons }) {
   return <Icons icons={icons} />;
-}
-
-function Icons({ icons }) {
-  return <div>{icons.map(src => <Icon src={src} key={src} />)}</div>;
 }
 
 function partitionIcons(icons, query) {

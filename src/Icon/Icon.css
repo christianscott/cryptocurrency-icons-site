@@ -1,0 +1,25 @@
+.Icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Icon__image {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 0.4rem;
+}
+
+.Icon__image img {
+  width: 100%;
+  height: auto;
+  display: block;
+
+  transform: scale(1) translateY(0);
+  transition: transform 125ms ease;
+}
+
+.Icon:hover .Icon__image img {
+  transform: scale(1.1) translateY(-10px);
+}
+

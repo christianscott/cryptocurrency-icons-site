@@ -1,0 +1,12 @@
+.Icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 4rem 2rem;
+}
+
+@media (max-width: 1050px) {
+  .Icons {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
