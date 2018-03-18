@@ -1,0 +1,19 @@
+.FixedAspectRatio {
+  position: relative;
+  width: 100%;
+}
+
+.FixedAspectRatio:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-top: 100%;
+}
+
+.FixedAspectRatio__child {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
