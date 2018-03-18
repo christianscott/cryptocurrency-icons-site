@@ -18,15 +18,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Arial Rounded MT Bold";
 }
 
-.a-reset {
-  color: inherit;
-  text-decoration: none;
-}
-
-.a-reset:hover {
-  color: #4A90E2;
-}
-
 .color-blue {
   color: #4A90E2;
 }
@@ -35,8 +26,18 @@ h1, h2, h3, h4, h5, h6 {
   color: #9B9B9B;
 }
 
-.a-reset.color-light:hover,
-.a-reset:hover .color-light {
+.fake-link {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+.fake-link:hover {
+  color: #4A90E2;
+}
+
+.fake-link.color-light:hover,
+.fake-link:hover .color-light {
   color: rgba(75, 144, 226, 0.6);
 }
 

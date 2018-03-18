@@ -4,22 +4,22 @@
   align-items: center;
 }
 
-.Icon__image {
-  width: 100%;
+.Icon__content {
   padding: 1rem;
-  margin-bottom: 0.4rem;
 }
 
-.Icon__image img {
+.Icon__content img {
   width: 100%;
   height: auto;
   display: block;
+}
 
+.Icon__content {
   transform: scale(1) translateY(0);
   transition: transform 125ms ease;
 }
 
-.Icon:hover .Icon__image img {
+.Icon:hover .Icon__content {
   transform: scale(1.1) translateY(-10px);
 }
 
